@@ -1,13 +1,13 @@
 # Fraud Transaction Detection using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on building a machine learning model to detect fraudulent financial transactions using a highly imbalanced real-world dataset. The goal is not only to build an accurate model, but also to extract meaningful insights and propose actionable fraud prevention strategies.
 
 The project was completed as part of the **Accredian Technologies Internship Case Study**.
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 - Total records: ~6.3 million transactions
 - Target variable: `isFraud` (0 = Non-Fraud, 1 = Fraud)
 - Features include:
@@ -20,7 +20,7 @@ Due to confidentiality, the dataset is not included in this repository.
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+##  Data Cleaning & Preprocessing
 - No missing values were present in the dataset.
 - Extreme transaction values were retained as they represent valid fraud behavior.
 - Identifier columns (`nameOrig`, `nameDest`) were removed to avoid overfitting.
@@ -30,7 +30,7 @@ Due to confidentiality, the dataset is not included in this repository.
 
 ---
 
-## 🤖 Modeling Approach
+##  Modeling Approach
 This problem was treated as a **binary classification task**.
 
 ### Models Used
@@ -47,7 +47,7 @@ This problem was treated as a **binary classification task**.
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 Given the highly imbalanced nature of the data, accuracy was not the primary metric.
 
 ### Key Evaluation Metrics
@@ -69,7 +69,7 @@ These results demonstrate strong discriminative power and effective fraud detect
 
 ---
 
-## 🔍 Key Factors Predicting Fraud
+## Key Factors Predicting Fraud
 Feature importance analysis revealed that fraud is strongly associated with:
 - High transaction amounts
 - Zero or low account balance before transaction
@@ -80,7 +80,7 @@ These patterns align well with real-world financial fraud behavior.
 
 ---
 
-## 🛡️ Business Recommendations
+## Business Recommendations
 Based on model insights, the following prevention strategies are recommended:
 - Real-time transaction monitoring using risk scores
 - Additional verification for high-risk transactions
@@ -89,7 +89,7 @@ Based on model insights, the following prevention strategies are recommended:
 
 ---
 
-## 📏 Measuring Effectiveness
+## Measuring Effectiveness
 The success of the fraud detection system can be measured using:
 - Reduction in fraud rate and financial losses
 - Monitoring recall and false positive rates
@@ -98,12 +98,10 @@ The success of the fraud detection system can be measured using:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - XGBoost
 - Matplotlib / Seaborn
 - Jupyter Notebook
-
-## 📁 Repository Structure
